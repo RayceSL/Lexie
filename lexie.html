@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexie</title>
+</head>
+<body>
+    <h1>Lexie</h1>
+    <p>Press crtl+shift+i to open the Console in order to properly play.</p>
+    <p>Guesses must be all lowercase, and be exactly five letters long.</p>
+    <p>A list of possible words must be provided, get the list <a href="https://github.com/charlesreid1/five-letter-words/blob/master/sgb-words.txt">here</a>. Then just press Play!</p>
+    <button onclick="init()">Play</button>
+    <script src="lexie.js"></script>
+    <input type="file" onchange="loadFile(this.files[0])">
+</body>
+</html>
